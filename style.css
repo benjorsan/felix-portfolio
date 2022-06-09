@@ -1,0 +1,55 @@
+body{
+
+    background-color: black; 
+    color: white;
+}
+
+
+
+
+.navbar{
+
+  height: 20bh;
+
+
+}
+
+
+
+
+.headshot{
+
+
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.welcome{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20vh;
+}
+
+#about,#contact{
+
+    background: grey;
+    min-height: 100vh;
+}
+
+.project{
+
+    transition: all 0.4s;
+}
+
+.project:hover{
+transform: scale(1.2);
+}
+
+#work{
+    height: 100vh;
+    
+}
